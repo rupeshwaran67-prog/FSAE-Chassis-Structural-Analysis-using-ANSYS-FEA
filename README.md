@@ -1,122 +1,50 @@
-# FSAE-Chassis-Structural-Analysis-using-ANSYS-FEA
-# FSAE Chassis Structural Analysis using ANSYS
+## Engineering Summary
 
-## Project Overview
-
-This project investigates the structural performance of a Formula SAE (FSAE) spaceframe chassis using Finite Element Analysis (FEA) in ANSYS.
-
-The chassis was evaluated under various loading conditions including torsional loading, cornering loads, aerodynamic forces, impact loading, and vibration analysis to assess structural integrity and performance.
-
----
-
-## Software Used
-
-- ANSYS Mechanical
-- ANSYS Workbench
+| Parameter           | Value                                                    |
+| ------------------- | -------------------------------------------------------- |
+| Material            | AISI 4130 Chromoly Steel                                 |
+| Chassis Type        | Formula SAE Spaceframe                                   |
+| Element Type        | Beam Elements                                            |
+| Mesh Size           | 1 mm                                                     |
+| Torsional Test Load | 1200 N per suspension mount                              |
+| Frontal Impact Load | 35,000 N                                                 |
+| Analysis Types      | Static Structural, Cornering, Aerodynamic, Impact, Modal |
+| Software            | ANSYS Workbench & Mechanical                             |
 
 ---
 
-## Project Objectives
+## Key Engineering Activities
 
-- Evaluate chassis structural behaviour under racing conditions.
-- Analyse stress distribution and deformation.
-- Assess torsional stiffness.
-- Investigate chassis response to impact loading.
-- Evaluate vibration characteristics through modal analysis.
-
----
-
-## Material Selection
-
-### AISI 4130 Chromoly Steel
-
-Chosen due to:
-
-- High strength-to-weight ratio
-- Excellent fatigue resistance
-- Common use in Formula SAE applications
-- Good manufacturability
+| Activity                  | Purpose                                                         |
+| ------------------------- | --------------------------------------------------------------- |
+| Geometry Preparation      | Creation of simulation-ready chassis model                      |
+| Mesh Convergence Study    | Balance between accuracy and computational cost                 |
+| Torsional Analysis        | Evaluation of chassis stiffness                                 |
+| Cornering Load Analysis   | Assessment of chassis response during high lateral acceleration |
+| Aerodynamic Load Analysis | Investigation of structural behaviour under downforce           |
+| Frontal Impact Analysis   | Evaluation of crash load resistance                             |
+| Modal Analysis            | Identification of natural frequencies and vibration modes       |
 
 ---
 
-## Analysis Performed
+## Material Properties (AISI 4130)
 
-### Torsional Analysis
-
-The rear suspension points were constrained while loads were applied at the front suspension mounting locations to evaluate torsional stiffness.
-
-### Cornering Load Analysis
-
-Simulated high-speed cornering conditions to evaluate chassis deformation and stress distribution.
-
-### Aerodynamic Load Analysis
-
-Applied aerodynamic forces to assess structural behaviour under downforce and drag conditions.
-
-### Frontal Impact Analysis
-
-Evaluated chassis response under frontal impact loading conditions to assess safety performance.
-
-### Modal Analysis
-
-Investigated natural frequencies and vibration modes to identify potential resonance concerns.
+| Property                  | Value       |
+| ------------------------- | ----------- |
+| Yield Strength            | ~460 MPa    |
+| Ultimate Tensile Strength | 560–670 MPa |
+| Young's Modulus           | 205 GPa     |
+| Shear Modulus             | 80 GPa      |
+| Poisson's Ratio           | 0.28–0.30   |
 
 ---
 
-## Meshing Strategy
+## Project Outcomes
 
-- Beam elements used for tubular frame members.
-- Mesh convergence study performed.
-- Refined mesh applied in high-stress regions.
-- Balance achieved between computational efficiency and solution accuracy.
+* Successfully modelled and analysed an FSAE spaceframe chassis.
+* Evaluated structural performance under multiple racing load cases.
+* Investigated stress distribution and deformation behaviour.
+* Assessed chassis response to frontal impact loading.
+* Studied vibration characteristics through modal analysis.
+* Demonstrated application of Finite Element Analysis for motorsport engineering design.
 
----
-
-## Key Results
-
-- Evaluated stress distribution throughout the chassis.
-- Assessed deformation under multiple loading conditions.
-- Identified critical stress regions.
-- Verified structural behaviour under racing loads.
-- Investigated modal characteristics for vibration performance.
-
----
-
-## Engineering Skills Demonstrated
-
-- Finite Element Analysis (FEA)
-- ANSYS Mechanical
-- Structural Analysis
-- Chassis Design Evaluation
-- Modal Analysis
-- Impact Assessment
-- Stress and Deformation Analysis
-- Engineering Validation
-
----
-
-## Key Learning Outcomes
-
-- Understanding of Formula SAE chassis behaviour.
-- Application of FEA techniques to motorsport structures.
-- Evaluation of structural performance under dynamic loading.
-- Development of simulation and engineering analysis skills.
-
----
-
-## Future Improvements
-
-- Chassis weight optimisation.
-- Advanced fatigue analysis.
-- Topology optimisation.
-- Composite material investigations.
-- Experimental validation testing.
-
----
-
-## Author
-
-Rupeshwaran Paranthaman
-
-MSc Mechanical Engineering
-University of Hertfordshire
